@@ -1,0 +1,8 @@
+#Colors
+export CLICOLOR=1
+export LSCOLORS=fxfxcxdxbxegedabagacad
+
+alias l='ls -alh'
+alias ls='ls -p'
+alias vi='vim'
+alias be='bundle exec'
