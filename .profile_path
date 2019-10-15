@@ -1,0 +1,5 @@
+export PATH="$HOME/.ndenv/bin:$PATH"
+eval "$(ndenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+

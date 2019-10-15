@@ -6,3 +6,6 @@ alias l='ls -alh'
 alias ls='ls -p'
 alias vi='vim'
 alias be='bundle exec'
+
+alias gtree='git log --graph --oneline --all'
+
