@@ -7,11 +7,8 @@ parse_ruby_version () {
 }
 set_prompt () {
   # https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
-  # 009 RED
-  # 234 text color
-  # 252 LIGHT_GRAY
 
   setopt prompt_subst
-  PROMPT=$'%n@%m:%d %F{240}$(git_branch) %F{240}r$(parse_ruby_version) %{$reset_color%}\n€ '
+  PROMPT=$'%n:%d %F{136}[$(git_branch)] %F{244}r$(parse_ruby_version)\n€ '
 }
 set_prompt
