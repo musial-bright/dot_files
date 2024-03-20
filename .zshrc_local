@@ -1,1 +1,1 @@
-PATH="/opt/homebrew/bin:$PATH"
+DEBUG_PRINT_LIMIT=10000
